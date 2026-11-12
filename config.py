@@ -44,7 +44,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkharalam62/Baby-MUSIC",
+    "https://github.com/konbkl/fucccj",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 # Set to True only if you want the bot to pull UPSTREAM_REPO on every fresh start

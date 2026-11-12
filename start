@@ -1,0 +1,3 @@
+#!/bin/bash
+[ -f venv/bin/activate ] && source venv/bin/activate
+exec python3 -m ISTKHAR_MUSIC

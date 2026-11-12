@@ -1,0 +1,9 @@
+services:
+  musicbot:
+    build: .
+    container_name: baby-music
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./cookies:/app/cookies

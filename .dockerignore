@@ -1,0 +1,12 @@
+.git
+.github
+__pycache__
+*.pyc
+.env
+*.session
+*.session-journal
+log.txt
+downloads
+cache
+playback
+venv
